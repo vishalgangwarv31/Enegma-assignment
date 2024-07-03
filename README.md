@@ -1,6 +1,6 @@
 # Enegma-assignment
 
-# TechStack:
+TechStack:
   frontend: React, vanilla css
   backend : flask, postgresql
 
