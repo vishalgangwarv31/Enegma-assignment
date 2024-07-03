@@ -1,0 +1,276 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Gill Sans Extrabold", sans-serif;
+}
+
+.app-container{
+  background-color: #f0f4f8;
+  height: 100vh;
+  display: flex;
+}
+
+.menu-container{
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  height: 100vh;
+  width: 25vw;
+}
+
+.api-heading{
+  margin-top: 20px;
+}
+
+.list-option{
+    margin-top: 33px;
+}
+
+.list-option li{
+  margin-top: 10px;
+  padding: 5px 4px 6px 7px;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  list-style: none;
+  font-size: 25px;
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  color: grey;
+}
+
+.list-option li:first-child{
+  background-color: rgb(80, 80, 197);
+  color: white;
+}
+
+
+.user-detail {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  gap: 1rem;
+}
+
+.user-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.user-position {
+  font-size: 14px;
+  color: #888;
+}
+
+
+
+.option-container{
+  flex: 1;
+}
+
+.user-container{
+  margin-top: auto;
+  margin-bottom: 70px;
+}
+
+.info-container{
+  margin: 40px;
+  margin-top: 15px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #f0f4f8;
+  width: 75vw;
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333; 
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 10px 15px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-icon {
+  color: #aaa; 
+  margin-right: 10px; 
+}
+
+.search input {
+  border: none;
+  outline: none;
+  padding: 5px;
+  flex: 1;
+  background: transparent;
+  font-size: 14px;
+  color: #333;
+}
+
+.search input::placeholder {
+  color: #aaa; 
+}
+
+.dashboard{
+  margin-top: 30px;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.req-container {
+  display: flex;
+  padding: 20px;
+  max-width: 200px;
+}
+
+.req-icon {
+  background-color: #e0f7ea;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.req-icon svg {
+  color: #34a853;
+  width: 24px;
+  height: 24px;
+}
+
+.req-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.req-heading {
+  font-size: 14px;
+  color: #999;
+  margin: 0;
+}
+
+.req-number {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+}
+
+
+.res-icon {
+  background-color: #e0f7f5;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.res-icon svg {
+  color: #34a8a2;
+  width: 24px;
+  height: 24px;
+}
+
+.fail-icon {
+  background-color: #f7e7e0;
+  border-radius: 50%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.fail-icon svg {
+  color: #a84f34;
+  width: 24px;
+  height: 24px;
+}
+
+.chart-container{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding: 10px;
+    width: 30%;
+    margin-top: 20px; 
+    background-color: white;
+    border-radius: 20px;
+    width: 650px;
+}
+
+.charts-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.piechart-container {
+  background-color: white;
+  border-radius: 20px; 
+  padding: 20px;
+  margin-top: 20px;
+  width: 350px; 
+  height: 220px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.table-container{
+  margin-top: 20px;
+  height: 270px;
+  width: 75vw;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left; 
+}
+
+th {
+  color: #aaa; 
+  font-weight: normal; 
+}
+
+tbody tr {
+  border-bottom: none; 
+}
+
+
+
